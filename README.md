@@ -1,5 +1,7 @@
 [![](https://jitpack.io/v/xunyang-yuhui/EmergeTextView.svg)](https://jitpack.io/#xunyang-yuhui/EmergeTextView)
 
+一款文字展示的自定义View，含打字机模式（typer）和 随机模式（random）。打字机模式原型可参考游戏中的对话框文字出现的样式，随机模式原型可参考潮汐App
+
 # 效果图展示
 https://s3.ax1x.com/2020/11/24/DNekeH.gif
 
