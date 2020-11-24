@@ -6,7 +6,7 @@ https://s3.ax1x.com/2020/11/24/DNekeH.gif
 思路参考了 https://github.com/xmuSistone/android-character-animation 
 
 # 使用方法
-（'''）
+```
     <com.yu.emergetextview.EmergeTextView
             android:id="@+id/view_emerge_text"
             android:layout_width="wrap_content"
@@ -21,4 +21,4 @@ https://s3.ax1x.com/2020/11/24/DNekeH.gif
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
-(''')
+```
