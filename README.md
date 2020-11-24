@@ -10,5 +10,5 @@ allprojects {
   
   Step 2:
   dependencies {
-	        implementation 'com.github.xunyang-yuhui:EmergeTextView:Tag'
+	        implementation 'com.github.xunyang-yuhui:EmergeTextView:v1.0.0'
 	}
