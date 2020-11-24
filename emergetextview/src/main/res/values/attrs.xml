@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmergeTextView">
+        //类型
+        <attr name="type" format="enum">
+            <enum name="typer" value="0"/>
+            <enum name="random" value="1"/>
+        </attr>
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        //动画持续时间
+        <attr name="during" format="integer"/>
+    </declare-styleable>
+</resources>
