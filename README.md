@@ -6,6 +6,7 @@ https://s3.ax1x.com/2020/11/24/DNekeH.gif
 思路参考了 https://github.com/xmuSistone/android-character-animation 
 
 # 使用方法
+## xml添加
 ```
     <com.yu.emergetextview.EmergeTextView
             android:id="@+id/view_emerge_text"
@@ -21,4 +22,30 @@ https://s3.ax1x.com/2020/11/24/DNekeH.gif
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
+```
+## 代码中动态设置
+```
+    emergeTextView.setType(EmergeTextView.EmergeType.typer)
+    emergeTextView.setText(str)
+    emergeTextView.setTextColor(color)
+    emergeTextView.setTextSize(size)
+    //调用启动方法
+    emergeTextView.start()
+```
+
+```
+    Step 1:
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
+    Step 2:
+    dependencies {
+	        implementation 'com.github.xunyang-yuhui:EmergeTextView:Tag'
+	}
+
 ```
