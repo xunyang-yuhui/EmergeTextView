@@ -33,19 +33,19 @@ https://s3.ax1x.com/2020/11/24/DNekeH.gif
     emergeTextView.start()
 ```
 
+# Dependency
+Step 1: Add it in your root build.gradle at the end of repositories:
 ```
-    Step 1:
     allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-
-
-    Step 2:
+```
+Step 2. Add the dependency
+```
     dependencies {
 	        implementation 'com.github.xunyang-yuhui:EmergeTextView:Tag'
 	}
-
 ```
