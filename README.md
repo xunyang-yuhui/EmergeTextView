@@ -1,14 +1,1 @@
-# EmergeTextView
-
-Step 1:
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-  
-  Step 2:
-  dependencies {
-	        implementation 'com.github.xunyang-yuhui:EmergeTextView:v1.0.0'
-	}
+[![](https://jitpack.io/v/xunyang-yuhui/EmergeTextView.svg)](https://jitpack.io/#xunyang-yuhui/EmergeTextView)
