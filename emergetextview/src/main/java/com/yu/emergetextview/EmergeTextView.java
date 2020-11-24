@@ -1,11 +1,5 @@
 package com.yu.emergetextview;
 
-/**
- * 花式文字展示
- * 打字机式
- * 随机显示
- */
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -14,13 +8,18 @@ import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.Nullable;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
+
+/**
+ * 花式文字展示
+ * 打字机式
+ * 随机显示
+ */
 
 public class EmergeTextView extends View {
     private TextPaint mPaint;
@@ -43,11 +42,11 @@ public class EmergeTextView extends View {
         this(context, null);
     }
 
-    public EmergeTextView(Context context, @Nullable AttributeSet attrs) {
+    public EmergeTextView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public EmergeTextView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public EmergeTextView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.EmergeTextView);
         type = typedArray.getInt(R.styleable.EmergeTextView_type, 0);
