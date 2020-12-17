@@ -56,6 +56,8 @@ public class EmergeTextView extends View {
         during = typedArray.getInt(R.styleable.EmergeTextView_during, 2000);
         init();
         initCharConfig();
+
+        typedArray.recycle();
     }
 
     private void init() {
